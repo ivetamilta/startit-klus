@@ -1,0 +1,170 @@
+html, body {
+    height: 100vh;
+}
+.kr-kolonna {
+    background: linear-gradient(180deg, #0084F8 0%, #00C6FF 100%);
+}
+.laba-kolonna {
+    background: #E5E5E5;
+}
+.sveiciens {
+    position: absolute;
+    width: 361px;
+    height: 140px;
+    left: 121px;
+    top: 128px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 54px;
+line-height: 70px;
+/* or 130% */
+
+text-align: center;
+
+/* primary/white */
+
+color: #FFFFFF;
+}
+.line {
+    position: absolute;
+width: 248px;
+height: 0px;
+left: 177px;
+top: 308px;
+border: 1px solid #FFFFFF;
+}
+.paskaidrojums {
+    position: absolute;
+width: 449px;
+height: 36px;
+left: 76px;
+top: 348px;
+
+/* header/h5 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+/* primary/white */
+
+color: #FFFFFF;
+}
+.group1{
+    position: absolute;
+/* width: 449px; 
+height: 256px;
+left: 35px;
+top: 70px;*/
+margin: 0,auto;
+}
+.group2{
+    position: absolute;
+width: 634px; 
+height: 366px;
+left: 50px;
+top: 128px;
+/* text-align: center; */
+/* margin: 0,auto; */
+}
+.bilde{
+position: absolute;
+width: 230px;
+height: 190px;
+left: 220px;
+top: 512px;
+}
+.teksts1{
+    position: absolute;
+    width: 474px;
+    height: 162px;
+    left: 281px;
+    top: 70px;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 81px;
+        /* primary/b200 */
+        color: #0084F8;  
+}
+.teksts2{
+    position: absolute;
+width: 634px;
+height: 68px;
+left: 281px;
+top: 322px;
+
+/* body/large */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 170.23%;
+/* or 34px */
+/* secondary/d300 */
+color: #52616B;
+}
+.zila-poga{
+    position: absolute;
+    width: 270px;
+    height: 60px;
+left: 282px;
+top: calc(120% - 35px/2 + 0.5px);
+text-align: center;
+/* body/large */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 34px;
+display: flex;
+
+/* primary/white */
+color: #FFFFFF;
+background: #0084F8;
+}
+.balta-poga{
+    position: absolute;
+width: 270px; 
+height: 60px;
+left: 624px;
+ top: calc(120% - 35px/2 + 0.5px); 
+/* body/large */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 34px;
+display: flex;
+text-align: center;
+/* primary/b200 */
+color: #0084F8;
+}
+.oranza-poga{
+    position: absolute;
+    width: 270px;
+    height: 60px;
+left: 624px;
+top: 650px;
+/* top: calc(50% - 35px/2 + 2.5px); */
+/* body/large */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 34px;
+display: flex;
+text-align: center;
+/* primary/white */
+color: #FFFFFF;
+background: #FF8576;
+}
